@@ -2,7 +2,7 @@
 
 all:	$(TARGET)
 
-INSTALL_DIR = $(PREFIX)/lib/gnucap/models/bsim
+INSTALL_DIR = $(DESTDIR)/$(PREFIX)/lib/gnucap/models/bsim
 SPICE_INCLUDE = ../Include
 GNUCAP_INCLUDE = $(PREFIX)/include/gnucap
 SPICEWRAPPER_SRC = ../../src
