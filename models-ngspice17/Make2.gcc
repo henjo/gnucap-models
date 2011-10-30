@@ -52,3 +52,5 @@ $(OBJS) : $(HDRS)
 install:
 	mkdir --parents $(INSTALL_DIR)
 	cp $(TARGET)$(SO_EXTENSION) $(INSTALL_DIR)
+check:
+

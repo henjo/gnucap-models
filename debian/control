@@ -3,7 +3,7 @@ Section: electronics
 Priority: optional
 Maintainer: Henrik Johansson <henrik@johome.net>
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 8), libgnucap-dev
+Build-Depends: debhelper (>= 8), libgnucap-dev, autotools-dev, autoconf, automake, libtool
 Homepage: http://gnucap.org
 
 Package: gnucap-models
