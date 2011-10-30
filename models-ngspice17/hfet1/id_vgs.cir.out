@@ -1,0 +1,19 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+HFET Id versus Vgs characteristic 
+#           i(vds)    
+ 0.         37.727p   
+ 0.1       -107.5u    
+ 0.2       -138.96u   
+ 0.3       -151.39u   
+ 0.4       -160.45u   
+ 0.5       -168.75u   
+ 0.6       -176.9u    
+ 0.7       -185.12u   
+ 0.8       -193.48u   
+ 0.9       -202.04u   
+ 1.        -210.8u    

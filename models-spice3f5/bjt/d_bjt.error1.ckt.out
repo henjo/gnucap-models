@@ -1,0 +1,16 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+npn1: already installed, replacing
+stashing as npn1:0
+pnp1: already installed, replacing
+stashing as pnp1:0
+ 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:1003:precalc_first
+@@#
+@@@:../Gnucap/spice-wrapper.cc:869:expand
+q1: model foo is not a spice_bjt

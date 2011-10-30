@@ -1,0 +1,67 @@
+This package contains the complete set of models from "jspice3.2.5"
+
+
+STATUS
+
+bjt:	+++-	different results, don't know why
+bsim1:	+++-	see 3f5
+bsim2:	++++	tested
+cap:	+++-	works with model, parse problem without
+dio:	+++++	supported (no mods)
+ind:	-	undefined symbol: CKTtypelook
+jfet:	+++++	supported
+jj:	+-	loads, parse problem, numeric problem
+ltra:	+	loads, not tested
+mes:	+++
+mos:	+++-	see notes below
+res:	-	undefined symbol: txfree
+src:	-	undefined symbol: CKTfndBranch
+sw:	-	undefined symbol: CKTfndBranch
+tra:	+-	parse problem
+urc:	-	undefined symbol: CKTpModName
+
+"-" means there is a problem.
+
+"+", "loads" means that it loads with no reported error.
+
+"++" means passes a quick check, and looks sane.
+
+"+++" means passes a real check, and looks sane.
+
+"++++", "tested" means that it has been tested, with results confirmed 
+against an appropriate reference.
+
+"+++++", "supported" means that it has been tested and works correctly, and
+included in multiple regressions.
+
+In all cases, "binning" dosn't work, and handling of initial conditions
+(UIC) is incomplete.
+
+
+More detailed status:
+
+"bjt" model:
+Some results are different from other versions of bjt.
+In one test, "op" doesn't show the same results every time,
+but seems to work correctly in setting up for a following AC.
+Not sure why.  Until some more testing and debugging is done,
+the "models-spice3f5" version or the native version is
+recommended instead.
+
+
+"mos" model:
+
+Passes all tests on level 1,2,3,6 .. standard spice models.
+
+Level 8 (cryo-mos) appears to pass some tests, fail others.
+Further study is needed.
+
+
+"jj" model:
+
+Parse problem .. a parameter is a device, not supported by
+spice-wrapper.
+
+Devices not using that parameter don't work either.
+
+

@@ -1,0 +1,13 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC diode test 
+#           v(vcc)     vbe(Q1)    vbc(Q1)    ic(Q1)     ib(Q1)     ie(Q1)     is(Q1)    
+ 27.        1.         0.91612    0.80715    0.018202   0.0031267 -0.021329  -980.59f   
+#           gm(Q1)     go(Q1)     gpi(Q1)    gmu(Q1)    gx(Q1)     p(Q1)     
+ 27.        0.43927   -0.045008   0.093267   0.027613   0.31408    0.0048479 
+#           cbe(Q1)    cbex(Q1)   cbc(Q1)    cbcx(Q1)   cbep(Q1)   cbcp(Q1)  
+ 27.        96.08p     0.         530.12p    89.E-21    107.69f    438.43f   

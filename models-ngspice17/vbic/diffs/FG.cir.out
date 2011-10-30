@@ -1,0 +1,19 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC Gummel Test 
+#           i(VC)      i(VB)     
+ 0.2        216.65f    276.09f   
+ 0.3        10.078p    1.8144p   
+ 0.4        468.02p    16.685p   
+ 0.5        21.692n    327.47p   
+ 0.6        1.0016u    12.415n   
+ 0.7        44.915u    568.25n   
+ 0.8        0.0012372  23.902u   
+ 0.9        0.0084097  475.62u   
+ 1.         0.018202   0.0031267 
+ 1.1        0.024275   0.0081499 
+ 1.2        0.027855   0.014342  

@@ -1,0 +1,19 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC Temp test 
+#           i(VC)      i(VB)     
+ 0.2        18.685n    0.        
+ 0.3        282.95n    4.1578n   
+ 0.4        4.2487u    49.533n   
+ 0.5        61.707u    741.42n   
+ 0.6        692.09u    10.947u   
+ 0.7        0.0039559  131.63u   
+ 0.8        0.011623   0.0010098 
+ 0.9        0.020073   0.0038607 
+ 1.         0.026038   0.0086055 
+ 1.1        0.0295     0.014547  
+ 1.2        0.031529   0.021148  

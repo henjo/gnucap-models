@@ -1,0 +1,26 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC Pole Zero Test 
+#           v(1)       v(2)       v(3)       v(4)      
+ 27.        0.80786    3.3642     5.         3.3642    
+#Freq       idb(Vmeas) ip(Vmeas) 
+ 100.K      32.679     0.029026  
+ 215.44K    32.682     0.012463  
+ 464.16K    32.683     0.0036025 
+ 1.Meg      32.683    -0.0030299 
+ 2.1544Meg  32.682    -0.011536  
+ 4.6416Meg  32.68     -0.027173  
+ 10.Meg     32.668    -0.059567  
+ 21.544Meg  32.612    -0.12829   
+ 46.416Meg  32.363    -0.27139   
+ 100.Meg    31.365    -0.54092   
+ 215.44Meg  28.457    -0.91701   
+ 464.16Meg  23.316    -1.2416    
+ 1.G        17.055    -1.4429    
+ 2.1544G    10.45     -1.5748    
+ 4.6416G    3.6875    -1.7012    
+ 10.G      -3.1357    -1.862     

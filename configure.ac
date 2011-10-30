@@ -1,0 +1,139 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+# $Id$
+#
+#                            COPYRIGHT
+#
+#  Copyright (C) 2005, 2006 Dan McMahill
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+#  02110-1301, USA.
+
+AC_PREREQ(2.59)
+AC_INIT([gnucap-models], [1.0])
+AM_INIT_AUTOMAKE
+
+AM_MAINTAINER_MODE
+
+## Libtool init
+LT_PREREQ()
+AC_PROG_LIBTOOL
+AC_CONFIG_MACRO_DIR([m4])
+
+AC_MSG_CHECKING([if debug code should be compiled in])
+AC_ARG_ENABLE([debug],
+[  --enable-debug            Enable building of debug code. [[default: disabled]]],
+[
+if test "X$enable_debug" = "Xno" ; then
+	AC_MSG_RESULT([no])
+else
+	AC_MSG_RESULT([yes])
+	enable_debug=yes
+fi
+],
+[
+	AC_MSG_RESULT([no])
+	enable_debug=no
+])
+
+# Checks for programs.
+AC_PROG_CXX
+
+# Add support for shared libraries
+AC_PROG_LIBTOOL
+#AM_PROG_LIBTOOL
+
+# If we are cross compiling, then we need to search for a
+# gnucap-modelgen program to use for our build.  This can
+# either be an installed modelgen or it can be specified
+# like:
+#   env MODELGEN=/build/i686--linux/modelgen/gnucap-modelgen /srcs/gnucap/configure
+#           --host=alpha--netbsd --build=i686--linux
+#
+if test "$cross_compiling" = yes; then
+	AC_PATH_PROG(MODELGEN, gnucap-modelgen)
+else
+	MODELGEN=../modelgen/gnucap-modelgen
+	AC_SUBST([MODELGEN])
+fi
+
+# for building the documentation
+#AC_PATH_PROG(DVIPDFM, dvipdfm, notfound)
+#AM_CONDITIONAL(MISSING_DVIPDFM, test x$DVIPDFM = xnotfound)
+#AC_PATH_PROG(HACHA, hacha, notfound)
+#AC_PATH_PROG(HEVEA, hevea, notfound)
+#AM_CONDITIONAL(MISSING_HEVEA, test x$HEVEA = xnotfound -o x$HACHA = xnotfound)
+#AC_PATH_PROG(LATEX, latex, notfound)
+#AC_PATH_PROG(MAKEINDEX, makeindex, notfound)
+#AM_CONDITIONAL(MISSING_LATEX, test x$LATEX = xnotfound -o x$MAKEINDEX = xnotfound)
+
+# Checks for libraries.
+
+# this is a c++ program so use c++ for the tests
+AC_LANG([C++])
+
+AC_CHECK_LIB([dl], [dlopen])
+
+# Checks for header files.
+#AC_CHECK_HEADERS([fcntl.h unistd.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+
+# Checks for library functions.
+
+if test "$enable_debug" = "yes" ; then
+	CPPFLAGS="$CPPFLAGS -DTRACE_UNTESTED"
+else
+	CPPFLAGS="$CPPFLAGS -DNDEBUG"
+fi
+# exports symbols to plugins
+LDFLAGS="$LDFLAGS -rdynamic"
+
+#AC_OUTPUT([
+#	Makefile
+#	doc/Makefile
+#	examples/Makefile
+#	man/Makefile
+#	man/Addmodel/Makefile
+#	man/Behavior/Makefile
+#	man/Circuit/Makefile
+#	man/Commands/Makefile
+#	man/Tech/Makefile
+#	modelgen/Makefile
+#	src/Makefile
+#	])
+
+AC_CONFIG_FILES([Makefile
+                 models-bsim/Makefile
+                 models-jspice3-2.5/Makefile
+                 models-ngspice17/Makefile
+                 models-spice3f5/Makefile
+                 ])
+
+
+AC_OUTPUT
+
+AC_MSG_RESULT([
+** Configuration summary for $PACKAGE $VERSION:
+
+   prefix:                   $prefix
+   CPPFLAGS:                 $CPPFLAGS
+   CFLAGS:                   $CFLAGS
+   CXXFLAGS:                 $CXXFLAGS
+   LDFLAGS:                  $LDFLAGS
+   LIBS:                     $LIBS
+
+])
+

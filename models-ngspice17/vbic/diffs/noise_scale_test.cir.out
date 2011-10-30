@@ -1,0 +1,11 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC Noise Scale Test 
+#          
+ 27.       
+.print noise sqrt(onoise_spectrum) 
+       ^ ? what's this?

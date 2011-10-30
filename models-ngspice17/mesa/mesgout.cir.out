@@ -1,0 +1,467 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+* Simulation of MESFET output conductance 
+#Freq      
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.001     
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0012589 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0015849 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0019953 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0025119 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0031623 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0039811 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0050119 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0063096 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.0079433 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.01      
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.012589  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.015849  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.019953  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.025119  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.031623  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.039811  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.050119  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.063096  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.079433  
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.1       
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.12589   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.15849   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.19953   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.25119   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.31623   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.39811   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.50119   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.63096   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 0.79433   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.        
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.2589    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.5849    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.9953    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 2.5119    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 3.1623    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 3.9811    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 5.0119    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 6.3096    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 7.9433    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 10.       
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 12.589    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 15.849    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 19.953    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 25.119    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 31.623    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 39.811    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 50.119    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 63.096    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 79.433    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 100.      
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 125.89    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 158.49    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 199.53    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 251.19    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 316.23    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 398.11    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 501.19    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 630.96    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 794.33    
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.K       
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.2589K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.5849K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.9953K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 2.5119K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 3.1623K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 3.9811K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 5.0119K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 6.3096K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 7.9433K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 10.K      
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 12.589K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 15.849K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 19.953K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 25.119K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 31.623K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 39.811K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 50.119K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 63.096K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 79.433K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 100.K     
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 125.89K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 158.49K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 199.53K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 251.19K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 316.23K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 398.11K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 501.19K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 630.96K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 794.33K   
+@@#
+@@@:../Gnucap/spice-wrapper.cc:437:localize_ckt
+@@#
+@@@:../Gnucap/spice-wrapper.cc:454:localize_ckt
+ 1.Meg     

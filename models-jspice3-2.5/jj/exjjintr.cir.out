@@ -1,0 +1,28 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+Interferometer demo 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+#Time       v(11)      v(3)      
+ 0.         0.         0.        
+@@#
+@@@incomplete:../Gnucap/spice-wrapper.cc:1789:NIsum
+@@#
+@@@incomplete:../Gnucap/spice-wrapper.cc:1789:NIsum
+@@#
+@@@:../main.cc:76:sig_abrt
+

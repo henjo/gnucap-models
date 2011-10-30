@@ -1,0 +1,73 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+difpair ckt - simple differential pair 
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+#           v(1)       v(2)       v(3)       v(4)       v(5)       v(6)      
++ v(7)       v(8)       v(9)      
+ 27.       -1.578n    -0.1578    -0.1578    -0.8342    -0.8342    -1.0113    
++-1.0118     12.       -12.       
+#           vb(q1)     vb(q2)     vb(q3)     vb(q4)     vb(qnl)   
+ 27.        ??         ??         ??         ??         ??        
+#           vbi(q1)    vbi(q2)    vbi(q3)    vbi(q4)    vbi(qnl)  
+ 27.        ??         ??         ??         ??         ??        
+#           i(vin)     i(vcc)     i(vee)    
+ 27.       -157.8u    -0.0032174  19.358    
+#           ic(q1)     ic(q2)     ic(q3)     ic(q4)     ic(qnl)   
+ 27.        0.011455   0.011455   9.5792     9.5791     ??        
+#           ice(q1)    ice(q2)    ice(q3)    ice(q4)    ice(qnl)  
+ 27.        ??         ??         ??         ??         ??        
+#           ib(q1)     ib(q2)     ib(q3)     ib(q4)     ib(qnl)   
+ 27.        157.8u     157.8u     0.099814   0.099814   ??        
+#           ipi(q1)    ipi(q2)    ipi(q3)    ipi(q4)    ipi(qnl)  
+ 27.        ??         ??         ??         ??         ??        
+#           imu(q1)    imu(q2)    imu(q3)    imu(q4)    imu(qnl)  
+ 27.        ??         ??         ??         ??         ??        
+#           ie(q1)     ie(q2)     ie(q3)     ie(q4)     ie(qnl)   
+ 27.       -0.0014412 -0.0014412 -0.12304    0.099163   ??        
+#           vbe(q1)    vbe(q2)    vbe(q3)    vbe(q4)    vbe(qnl)  
+ 27.        0.83768    0.83768    1.0066     1.0066     ??        
+#           vbei(q1)   vbei(q2)   vbei(q3)   vbei(q4)   vbei(qnl) 
+ 27.        ??         ??         ??         ??         ??        
+#           vbc(q1)    vbc(q2)    vbc(q3)    vbc(q4)    vbc(qnl)  
+ 27.        0.66063    0.66063   -9.9819    -9.9814     ??        
+#           vbci(q1)   vbci(q2)   vbci(q3)   vbci(q4)   vbci(qnl) 
+ 27.        ??         ??         ??         ??         ??        
+#           gm(q1)     gm(q2)     gm(q3)     gm(q4)     gm(qnl)   
+ 27.        0.44313    0.44313    370.21     370.2      ??        
+#           gpi(q1)    gpi(q2)    gpi(q3)    gpi(q4)    gpi(qnl)  
+ 27.        0.0056222  0.0056222  3.8591     3.8591     ??        
+#           gmu(q1)    gmu(q2)    gmu(q3)    gmu(q4)    gmu(qnl)  
+ 27.        478.74u    478.74u    1.p        1.p        ??        
+#           gx(q1)     gx(q2)     gx(q3)     gx(q4)     gx(qnl)   
+ 27.        0.01       0.01       0.01       0.01       ??        
+#           go(q1)     go(q2)     go(q3)     go(q4)     go(qnl)   
+ 27.        704.83u    704.83u    0.1597     0.1597     ??        
+#           cpi(q1)    cpi(q2)    cpi(q3)    cpi(q4)    cpi(qnl)  
+ 27.        138.46p    138.46p    111.12n    111.11n    ??        
+#           cmu(q1)    cmu(q2)    cmu(q3)    cmu(q4)    cmu(qnl)  
+ 27.        6.0184p    6.0184p    831.14f    831.16f    ??        
+#           cbx(q1)    cbx(q2)    cbx(q3)    cbx(q4)    cbx(qnl)  
+ 27.        0.         0.         0.         0.         ??        
+#           ccs(q1)    ccs(q2)    ccs(q3)    ccs(q4)    ccs(qnl)  
+ 27.        ??         ??         ??         ??         ??        
+#           i(rs1)     i(rs2)     i(rc1)     i(rc2)     i(rbias)  
+ 27.        157.8u    -157.8u    -0.0012834 -0.0012834 -650.59u   
+#           p(rs1)     p(rs2)     p(rc1)     p(rc2)     p(rbias)  
+ 27.        24.9u      24.9u      0.016472   0.016472   0.0084654 
+#           i(vin)     i(vcc)     i(vee)    
+ 27.       -157.8u    -0.0032174  19.358    
+#           p(vin)     p(vcc)     p(vee)    
+ 27.        249.f     -0.038609  -232.29    

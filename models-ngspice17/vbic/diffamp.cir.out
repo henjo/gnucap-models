@@ -1,0 +1,24 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC DiffAmp Test 
+#           v(e1_p)    v(i1_n)    v(q1_e)    v(q3_c)    v(q4_c)    v(q5_b)    v(q5_c)    v(q6_c)    v(q8_b)    v(q9_b)    v(r3_n)    v(v2_p)    v(vcc)     iter(0)   
+ 27.       -20.f       0.6584     1.0099     1.8177     1.8177     2.1761     1.9377     1.9377     1.9498     0.97409    1.6499     1.6499     3.3        40.       
+#Freq       vm(e1_p)   vp(e1_p)  
+ 100.K      0.0013719  3.1362    
+ 316.23K    0.0013697  3.1249    
+ 1.Meg      0.0013508  3.0937    
+ 3.1623Meg  0.0012698  3.06      
+ 10.Meg     0.0012073  3.0647    
+ 31.623Meg  0.0012002  3.0023    
+ 100.Meg    0.0012627  2.7634    
+ 316.23Meg  0.0018295  2.2284    
+ 1.G        0.0045363  1.688     
+#Time       v(e1_p)   
+ 0.        -20.f      
+non-recoverable convergence failure, reducing (itl4)
+newtime=7.812500e-13  rejectedtime=1.562500e-12  oldtime=0.000000e+00  using=1.000000e-12
+tried everything, still doesn't work, giving up

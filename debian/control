@@ -1,0 +1,13 @@
+Source: gnucap-models
+Section: electronics
+Priority: optional
+Maintainer: Henrik Johansson <henrik@johome.net>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8), libgnucap-dev
+Homepage: http://gnucap.org
+
+Package: gnucap-models
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgnucap
+Description: Gnucap circuit models
+ Gnucap simulation models including BSIM, models from ngspice, jspice3, spice3f5

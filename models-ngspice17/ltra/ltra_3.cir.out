@@ -1,0 +1,58 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+   BJTdriver -- 2in st. lin -- 20in coupled line -- 2in st line -- DiodeCircuit 
+@@#
+@@@:../Gnucap/spice-wrapper.cc:591:precalc
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+mod1_conv2wtwentyinch: bad parameter: , ignoring
+parameter r has no value
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+–ùÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+–ùÌ: lossy line series resistance not given, assumed zeromod2_conv2wtwentyinch: bad parameter: , ignoring
+parameter r has no value
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+@öÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+@öÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:591:precalc
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:591:precalc
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+parameter r has no value
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+–ùÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+–ùÌ: lossy line series resistance not given, assumed zeroparameter r has no value
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+@öÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:1601:IFerror
+@öÌ: lossy line series resistance not given, assumed zero@@#
+@@@:../Gnucap/spice-wrapper.cc:591:precalc
+@@#
+@@@:../Gnucap/spice-wrapper.cc:520:operator=
+#Time      
+ 0.        
+@@#
+@@@:../main.cc:76:sig_abrt
+

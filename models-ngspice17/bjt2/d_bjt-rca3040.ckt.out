@@ -1,0 +1,112 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+rca3040 ckt - rca 3040 wideband amplifier 
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+qnl: bad parameter: ccs, ignoring
+#           v(1)       v(2)       v(3)       v(5)       v(6)       v(7)      
++ v(8)       v(9)       v(10)      v(11)      v(12)      v(13)      v(14)     
++ v(15)      v(16)      v(17)      v(30)      v(31)     
+ 27.       -281.1p     15.       -15.       -0.82609   -0.82609   -0.83875   
++-4.1982    -5.0495     1.3403     1.3403     1.6115     0.80576    14.956    
++ 14.956     14.153     14.153    -0.02811   -0.02811   
+vdb(17)
+     -100.              -50.              0.                50.            100.
+vdb(16)
+     -100.              -50.              0.                50.            100.
+        +-----------------+----------------+-----------------+----------------+
+ 1.Meg  *                 .                .                 .                |
+ 1.5849M*                 .                .                 .                |
+ 2.5119M+  *              .                .                 .                |
+ 3.9811M+     *           .                .                 .                |
+ 6.3096M|  +     *        .                .                 .                |
+ 10.Meg |     +    *      .                .                 .                |
+ 15.849M|        +    *   .                .                 .                |
+ 25.119M|           +    *.                .                 .                |
+ 39.811M|             +   .*               .                 .                |
+ 63.096M|                +.  *             .                 .                |
+ 100.Meg|                 .  + *           .                 .                |
+ 158.49M|                 .   +*           .                 .                |
+ 251.19M|                 .   +*           .                 .                |
+ 398.11M|                 .   +*           .                 .                |
+ 630.96M|                 . + *            .                 .                |
+ 1.G    |                 .+*              .                 .                |
+ 1.5849G|                +.*               .                 .                |
+ 2.5119G|               +*.                .                 .                |
+ 3.9811G|             +*  .                .                 .                |
+ 6.3096G|           +*    .                .                 .                |
+ 10.G   |        +*       .                .                 .                |
+        +-----------------+----------------+-----------------+----------------+
+v(17) -20.              -10.              0.                10.             20.
+v(16) -20.              -10.              0.                10.             20.
+        +-----------------+----------------+-----------------+----------------+
+-0.2    |                 .                .                 .      *         |
+-0.18   |                 .                .                 .      *         |
+-0.16   |                 .                .                 .      *         |
+-0.14   |                 .                .                 .      *         |
+-0.12   |                 .                .                 .      *         |
+-0.1    |                 .                .                 .      *         |
+-0.08   |                 .                .                 .      *         |
+-0.06   |                 .                .                 .      *         |
+-0.04   |                 .                .                 .      *         |
+-0.02   |                 .                .                 .      *         |
+ 0.     |                 .                .                 .      *         |
+ 0.02   |                 .                .                 .      *         |
+ 0.04   |                 .                .                 .      *         |
+ 0.06   |                 .                .                 .      *         |
+ 0.08   |                 .                .                 .      *         |
+ 0.1    |                 .                .                 .      *         |
+ 0.12   |                 .                .                 .      *         |
+ 0.14   |                 .                .                 .      *         |
+ 0.16   |                 .                .                 .      *         |
+ 0.18   |                 .                .                 .      *         |
+ 0.2    |                 .                .                 .      *         |
+        +-----------------+----------------+-----------------+----------------+
+v(17)  2.                4.               6.                8.              10.
+v(16)  2.                4.               6.                8.              10.
+        +-----------------+----------------+-----------------+----------------+
+ 0.     |                 .                .                 .                *
+ 2.n    |                 .                .                 .                *
+ 4.n    |                 .                .                 .                *
+ 6.n    |                 .                .                 .                *
+ 8.n    |                 .                .                 .                *
+ 10.n   |                 .                .                 .                *
+ 12.n   |                 .                .                 .                *
+ 14.n   |                 .                .                 .                *
+ 16.n   |                 .                .                 .                *
+ 18.n   |                 .                .                 .                *
+ 20.n   |                 .                .                 .                *
+ 22.n   |                 .                .                 .                *
+ 24.n   |                 .                .                 .                *
+ 26.n   |                 .                .                 .                *
+ 28.n   |                 .                .                 .                *
+ 30.n   |                 .                .                 .                *
+ 32.n   |                 .                .                 .                *
+ 34.n   |                 .                .                 .                *
+ 36.n   |                 .                .                 .                *
+ 38.n   |                 .                .                 .                *
+ 40.n   |                 .                .                 .                *
+ 42.n   |                 .                .                 .                *
+ 44.n   |                 .                .                 .                *
+ 46.n   |                 .                .                 .                *
+ 48.n   |                 .                .                 .                *
+ 50.n   |                 .                .                 .                *
+        +-----------------+----------------+-----------------+----------------+

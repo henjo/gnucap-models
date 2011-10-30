@@ -1,0 +1,23 @@
+Q: already installed, replacing
+stashing as Q:0
+npn: already installed, replacing
+stashing as npn:0
+pnp: already installed, replacing
+stashing as pnp:0
+VBIC Test 
+#           vbe(Q1)    vbc(Q1)    ic(Q1)     ib(Q1)     ie(Q1)     is(Q1)    
+ 27.        0.69998   -1.2995     66.082u    777.36n   -66.859u    199.99f   
+#           gm(Q1)     go(Q1)     gpi(Q1)    gmu(Q1)    gx(Q1)     p(Q1)     
+ 27.        0.0024623 -3.9397u    29.97u     100.f      0.29048    132.68u   
+#           cbe(Q1)    cbex(Q1)   cbc(Q1)    cbcx(Q1)   cbep(Q1)   cbcp(Q1)  
+ 27.        188.13f    0.         14.36f     0.         71.797f    276.83f   
+#           i(VC)      i(VB)     
+ 0.2        0.         0.        
+ 0.3        0.         0.        
+ 0.4        0.         0.        
+ 0.5       -32.48n     0.        
+ 0.6       -1.4853u   -16.829n   
+ 0.7       -66.082u   -777.38n   
+ 0.8       -0.0017571 -36.31u    
+ 0.9       -0.015693  -0.0014264 
+ 1.        -0.060969  -0.019382  

@@ -1,0 +1,18 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+JSPICE3 jj qp modulation demo 
+@@#
+@@@:../lang_spice_in.cc:267:parse_element_using_obsolete_callback
+v2 3 0 
+       ^ ? needs a value
+@@#
+@@@:../Gnucap/spice-wrapper.cc:847:expand
+@@#
+@@@:../Gnucap/spice-wrapper.cc:521:operator=
+@@#
+@@@:../main.cc:76:sig_abrt
+

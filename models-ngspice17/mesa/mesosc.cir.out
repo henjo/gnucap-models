@@ -1,0 +1,29 @@
+Copyright 1982-2007, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+* Mesfet Ring Oscillator with ungated load 
+bl1 1 2 i=0.00025*tanh(v(1,2)/0.00025/2240)*(1+v(1,2)*0.027)
+ ^ ? what's this?
+@@#
+@@@:../s_tr_set.cc:71:setup
+#Time      
+@@#
+@@@:../m_matrix.h:620:lu_decomp
+open circuit: internal node 45
+@@#
+@@@:../m_matrix.h:620:lu_decomp
+open circuit: internal node 46
+@@#
+@@@:../m_matrix.h:620:lu_decomp
+open circuit: internal node 15
+@@#
+@@@:../m_matrix.h:620:lu_decomp
+open circuit: internal node 16
+@@#
+@@@:../s_tr_swp.cc:95:sweep
+@@#
+@@@:../main.cc:76:sig_abrt
+
