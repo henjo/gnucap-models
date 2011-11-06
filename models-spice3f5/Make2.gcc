@@ -24,7 +24,7 @@ CCFLAGS = $(CFLAGS) -I$(GNUCAP_INCLUDE) -Wall -Wextra
 
 LDFLAGS = -shared
 
-LIBS = 
+LIBS = -lgnucap
 
 SO_EXTENSION = .so
 
